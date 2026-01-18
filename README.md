@@ -6,6 +6,7 @@ This repository contains a **starter template** for building Node.js backends wi
 - Express
 - CommonJS module system
 - Development tooling (nodemon, ts-node)
+- bun
 
 This template sets up the folder structure, TypeScript configuration, and basic scripts to get started quickly.
 
@@ -28,7 +29,7 @@ cd <your-folder-name>
 ### 3. Install dependencies
 
 ```
-npm install
+bun install
 ```
 
 ### 4. Copy the .env file
@@ -43,24 +44,30 @@ Edit the author, package name and other information inside package.json, with yo
 
 ---
 
+### 5. Change the git user (optional)
+
+Edit the local git user email and name for the project
+
+---
+
 ## Available Scripts
 
 ### Development mode (auto-reload)
 
 ```
-npm run dev
+bun run dev
 ```
 
 ### Build the project (outputs to dist/)
 
 ```
-npm run build
+bun run build
 ```
 
 ### Start production build
 
 ```
-npm start
+bun start
 ```
 
 ---
